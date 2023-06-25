@@ -93,15 +93,22 @@ form p a{
     color: #3c00a0;
 }
 
-.btn-field button{
-    padding: 6px 24px;
-    margin-top: 25px;
-    border-radius: 25px;
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    flex-basis: 45%;
+    height: 40px;
+    border-radius: 20px;
     border: 0;
+    outline: 0;
     background: #3c00a0;
     color: #fff;
     font-size: 14px;
-    margin-right: 4px;
+    transition: background 0.1s ease-in;
 }
 
  button:hover {
@@ -110,3 +117,11 @@ form p a{
     background: darkmagenta;
 }
 
+.input-group {
+    height: 280px;
+}
+
+.btn-field button.disabled {
+    background: #eaeaea;
+    color: #555;
+}
