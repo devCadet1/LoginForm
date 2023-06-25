@@ -11,9 +11,5 @@ signinBtn.onclick = function () {
     signupBtn.classList.add('disabled')
 }
 
-signupBtn.onclick = function () {
-    title.innerHTML = 'Sign Up';
-    nameField.style.maxHeight = '65px'
-    signupBtn.classList.remove('disabled')
-    signinBtn.classList.add('disabled')
-}
+
+ 
