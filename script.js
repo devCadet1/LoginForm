@@ -9,6 +9,7 @@ signinBtn.onclick = function () {
     title.innerHTML = 'Sign In'
     signinBtn.classList.remove('disabled')
     signupBtn.classList.add('disabled')
+// this piece of code isn't working 
 }
 
 
