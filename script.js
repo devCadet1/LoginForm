@@ -1,5 +1,6 @@
 let signinBtn = document.getElementById('signinBtn')
 
+// try to create a different button with same function 
 let signupBtn = document.getElementById('signupBtn')
 let title = document.getElementById('title')
 let nameField = document.getElementById('name-field')
